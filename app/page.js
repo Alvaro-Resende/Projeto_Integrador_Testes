@@ -4,7 +4,7 @@ import Servicos from "./_components/servicos";
 
 export default function Home() {
   return (
-    <div className="bg-[#B5B5B5] flex flex-col items-center justify-center p-5">
+    <div className="bg-[#B5B5B5] w-screen h-screen flex flex-col items-center justify-center p-5">
       <div className="w-full shadow-2xl rounded-xl flex flex-col mb-10">
           <Cabecalho />
           <Servicos />
